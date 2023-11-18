@@ -6,9 +6,13 @@ The program, designed with an intuitive UI in mind, provides assistance in helpi
 
 # Phases
 ✅ Phase 1: Create UI and use a 2D map as a placeholder (Map on left, statistics panel on right).
+
 ✅ Phase 2: Create a database of "hotspots" including detailed statistics and display them on the right panel.
 
 Phase 3: Replace 2D map with a 3D one.
+
 Phase 4: Vietnamese localization
+
 Phase 5: Finalize program and fix any bugs.
+
 Final Phase: Build/Package Electron application and generate executable files.

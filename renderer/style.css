@@ -1,0 +1,81 @@
+body {
+    min-height: 100vh;
+    background-color: #292b2f;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.portview iframe::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+.bg-top {
+    min-height: 200px;
+    min-width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: linear-gradient(to right, #0d6efd, #6610f2);
+}
+.bg-top .title {
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-weight: bold;
+}
+.main {
+    font-size: 3em;
+
+}
+.desc {
+    font-size: 1em;
+}
+
+
+.container {
+    padding-top: 15px;
+    position: relative;
+    height: 100vh;
+    color: white;
+}
+
+.portview {
+    display: inline-block;
+    min-width: 65%;
+    min-height: 50%;
+    float: left;
+    border: 1px solid rgb(0, 0, 0);
+}
+.info {
+    min-width: 35%;
+    min-height: 50%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.portview iframe {
+    position: absolute;
+    width: 65%;
+    height: 50%;
+    overflow: hidden
+}
+
+.overview-img {
+    max-width: 500px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.overview-img img {
+    max-width: 100%;
+}

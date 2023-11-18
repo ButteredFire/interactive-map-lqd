@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style-rdr.css">
+    <script src="../js/renderer.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="landing-sect" id="sect-1">
+            <div class="absolute-wrapper">
+                <div class="transform-wrapper" id="ls-wrapper">
+                    <div class="logo">
+                        <img src="../assets/LQDHSGS_logo.png" alt="LQD High School for the Gifted - Vung Tau">
+                        <h1 id="ls-logo-title">Interactive Map</h1>
+                    </div>
+                    <div class="content">
+                        <h1 id="ls-content-desc">Explore the 3D-based map of Lê Quý Đôn High School for the Gifted: A powerful, extensible, and intuitive software that lets you visualize the complex 1 km<sup>2</sup> campus. With detailed statistics and 3D models of each facility, anyone can navigate through this concrete jungle with ease!</h1>
+                        <button class="btn" id="ls-content-btn">Get started</button>
+                    </div>
+                </div>
+            </div>
+
+            <footer id="ls-footer">Copyright (C) 2023 10AV1 Inc. Property of Dương Duy Nhật Minh.</footer>
+        </div>
+
+        <div class="map-sect" id="sect-2">
+            <div class="absolute-wrapper">
+                <div class="transform-wrapper" id="ms-wrapper">
+                    <div class="map">
+                        <iframe src="embedded_map.html" frameborder="0" style="border: none;" name="imgbox" id="imgbox"></iframe>
+                    </div>
+                    <div class="sidetext">
+                        <div class="header">
+                            <h2>GENERAL INFORMATION ON (null)</h2>
+                        </div>
+                        <div class="sect-divider"></div>
+                        <div class="body">
+                            <h3>Location: (null)</h3>
+                            <h3>Latitude, Longitude: (0, 0)</h3>
+                            <h3>Description:</h3>
+                            <p>     This is the "null" point. Yes, it is currently 1 AM and, not to put too fine a point on it, but I honestly do not give a fuck anymore. Fuck this shit, I'm going to bed.</p>
+                            
+                            <h3>Console</h3>
+                            <p>ERROR: General information of point (null) on (lat:0, lon:0) missing! Reason: SQLITE DATABASE EMPTY (404)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

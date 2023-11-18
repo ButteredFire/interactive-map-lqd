@@ -11,7 +11,7 @@ The program, designed with an intuitive UI in mind, provides assistance in helpi
 
 Phase 3: Replace 2D map with a 3D one.
 
-Phase 4: Vietnamese localization
+Phase 4: Vietnamese localization.
 
 Phase 5: Finalize program and fix any bugs.
 
